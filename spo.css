@@ -1,0 +1,689 @@
+@charset "UTF-8";
+
+html {
+    scroll-behavior: smooth;
+}
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+.cabecalho {
+    background-color: #FBF7ED;
+    top: 0;
+    left: 0;
+    right: 0;
+    position: fixed;
+}
+body {
+    background-color: #FBF7ED;
+}
+a {
+    text-decoration: none;
+}
+.cabecalho header{
+    display: flex;
+    justify-content: space-between;
+   
+}
+.cabecalho img {
+    margin-left: 100px;
+    width: 100px;
+    height: 90px;
+}
+.cabecalho nav {
+    padding-top: 38px;
+    margin-right: 60px;
+}
+.cabecalho nav a {
+    color: black;
+    margin: 20px;
+    font-family: sans-serif;
+    font-weight: bold;
+}
+.crie {
+    border: none;
+    padding: 14px;
+    border-radius: 4px;
+    background-color: #08a07a;
+}
+.cabecalho nav a:hover {
+    color: rgb(23, 182, 23);
+}
+.textodireito{
+    padding-top: 230px;
+    padding-left: 100px;
+    color: #004C3F;
+}
+.textodireito h1 {
+    font-family: Arial, Helvetica, sans-serif;
+    padding-bottom: 35px;
+    font-size: 2.7em;
+}
+.primeiroconteudo {
+    display: grid;
+    grid-template-columns: 4fr 3fr;
+    gap: 140px;
+    flex-flow: wrap;
+    padding-bottom: 60px;
+    font-family: Arial, Helvetica, sans-serif;
+}
+.textodireito form {
+    padding-bottom: 20px;    
+}
+.textodireito form input {
+    font-size: 1em;
+    padding: 15px;
+    width: 280px;
+    border-radius: 5px;
+    border: 1px solid rgba(0, 0, 0, 0.534);
+    outline: none;
+}
+.textodireito form button {
+    padding: 15px;
+    font-weight: bold;
+    font-size: 1em;
+    width: 278px;
+    border-radius: 4px;
+    border: none;
+    color: white;
+    background-color: #008060;
+    margin: 1px;
+}
+.textodireito form button:hover {
+    background-color: #004C3F;
+    transition: 0.2s;
+}
+.textodireito form button:active {
+    box-shadow: 0px 0px 7px 0px black;
+}
+.textodireito p {
+    font-size: 0.8em;
+    line-height: 1.6em;
+}
+.rp {
+    display: grid;
+    margin-top: 180px;
+    margin-right: 30px;
+}
+.rp img {
+    width: 900px;
+    max-width: 100%;
+    height: auto;
+}
+.segundoconteudo {
+    background-color: #004C3F;
+    margin: 0px auto;
+    padding: 90px 80px;
+    color: white;
+}
+.segundotexto h2{
+    font-size: 2.4em;
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    padding-bottom: 18px;
+}
+.segundotexto p:nth-child(2) {
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 1em;
+    padding-bottom: 18px;
+}
+.segundotexto p a {
+    color: white;
+    font-size: 1em;
+    font-weight: bold;
+    font-family: Arial, Helvetica, sans-serif;
+}
+.segundotexto p a:hover {
+    text-decoration: underline;
+}
+.imgcomercial {
+    padding-top: 60px;
+    display: grid;
+    grid-template-columns: repeat(5, 1fr);
+    gap: 20px;
+}
+.imgcomercial img {
+    max-width: 100%;
+    height: auto;
+    width: 215px;
+    overflow-x: auto;
+}
+.imgcomercial img:hover{
+    transform: scale(1.1) translate(0%, 0%) rotate(0);
+}
+.jornadas {
+    padding-top: 100px;
+    display: grid;
+    grid-template-columns: repeat(1, 1fr);
+}
+.jornadas h2 {
+    padding-top: 50px;
+    font-size: em;
+    padding-bottom: 100px;
+}
+.jor {
+    display: flex;
+    font-family: Arial, Helvetica, sans-serif;
+}
+.jor article {
+    margin: 20px;
+}
+.jor article h3 {
+    padding-bottom: 40px;
+    font-size: 1.4em;
+}
+.jor article p {
+    line-height: 1.5em;
+    font-size: 1.4em;
+}
+.terceiraparte {
+    padding: 80px 100px;
+}
+.segurar {
+    display: grid;
+    grid-template-columns: repeat(1, 1fr);
+}
+.terceirotexto {
+    text-align: center;
+    font-family: Arial, Helvetica, sans-serif;
+}
+.terceirotexto h2 {
+    font-size: 2.4em;
+    padding-bottom: 20px;
+}
+.terceirotexto p {
+    font-size: 1.2em;
+    line-height: 1.4em;
+    padding-bottom: 50px;
+    color: #6B7177;
+}
+.banco {
+    display: flex;
+    gap: 60px;
+    padding-bottom: 80px;
+}
+.banco img {
+    width: 600px;
+}
+.oculos {
+    font-family: Arial, Helvetica, sans-serif;
+    padding-top: 85px;
+}
+.oculos h3 {
+    padding-bottom: 25px;
+    font-size: 1.8em;
+}
+.oculos p {
+    color: #6B7177;
+    line-height: 1.4em;
+    font-size: 1em;
+    padding-bottom: 20px;
+}
+.oculos p a {
+    color: #008060;
+    font-weight: bold;
+    font-size: 1.1em;
+}
+.di {
+    display: flex;
+    gap: 40px;
+}
+.ditext {
+    padding-top: 150px;
+    font-family: Arial, Helvetica, sans-serif;
+    padding-left: 65px;
+}
+.ditext h3 {
+    font-size: 1.8em;
+    padding-bottom: 30px;
+}
+.ditext p {
+    line-height: 1.5em;
+    color: #6B7177;
+    padding-bottom: 20px;
+}
+.ditext p a {
+    color: #008060;
+    font-weight: bold;
+    font-size: 1.1em;
+}
+.cellr img {
+    width: 550px;
+}
+.spofy {
+    padding-top: 50px;
+    display: flex;
+    gap: 80px;
+}
+.spoimg img{
+    width: 630px;
+}
+.spotext {
+    font-family: Arial, Helvetica, sans-serif;
+    padding-top: 100px;
+}
+.spotext h3 {
+    font-size: 1.8em;
+    padding-bottom: 30px;
+}
+.spotext p {
+    line-height: 1.5em;
+    color: #6B7177;
+    padding-bottom: 20px;
+}
+.spotext p a {
+    color: #008060;
+    font-weight: bold;
+    font-size: 1.1em;
+}
+.mundo {
+    padding: 100px 80px;
+    display: grid;
+    grid-template-columns: 6fr 5fr;
+}
+.planeta {
+    font-family: Arial, Helvetica, sans-serif;
+}
+.platext {
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif
+}
+.platext h2 {
+    padding-bottom: 35px;
+    font-size: 1.8em;
+}
+.platext h3 {
+    font-size: 1.4em;
+    padding-bottom: 30px;
+}
+.platext p a{
+    font-family: Arial, Helvetica, sans-serif;
+    color: #008060;
+    font-weight: bold;
+}
+.plaimg img {
+    max-width: 730%;
+    height: auto;
+}
+.plaimg{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding-left: 500px;
+}
+.pp {
+    padding: 0px 70px;
+}
+.pessoas {
+    display: flex;
+}
+.pessoaslado {
+    background-color: #022e27;
+    text-align: center;
+    padding: 0px 80px;
+    font-family: Arial, Helvetica, sans-serif;
+    color: white;
+}
+.pessoaslado h2 {
+    line-height: 1.6em;
+    font-size: 1.7em;
+    padding-top: 40px;
+    padding-bottom: 50px;
+}
+.pessoaslado h3 {
+    padding-top: 30px;
+    padding-bottom: 20px;
+}
+.pessoas p a {
+    color: white;
+    font-weight: bold
+}
+.logotipos {
+    padding-top: 20px;
+}
+.logotipos aside {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-flow: wrap;
+    gap: 10px;
+}
+.ultparte {
+    padding: 100px 280px 100px 280px;
+    text-align: center;
+    font-family: Arial, Helvetica, sans-serif;
+}
+.ultima {
+    padding-bottom: 35px;
+}
+.ultima h2 {
+    padding-bottom: 20px;
+    font-size: 1.8em;
+}
+.ultima p {
+    color: #6B7177;
+    line-height: 1.5em;
+    font-size: 1.1em;
+}
+.ultparte form button {
+    padding: 17px;
+    width: 204px;
+    background-color: #008060;
+    border: none;
+    border-radius: 4px;
+    color: white;
+    font-size: 1em;
+    font-weight: bold;
+}
+.ultparte form button:hover {
+    background-color: #004C3F;
+    box-shadow: 0px 0px 1px 0 black;
+    transition: 0.2s;
+}
+.ultparte form button:active {
+    box-shadow: 0px 0px 6px 0px black;
+}
+.topo {
+    display: grid;
+    justify-content: right;
+    padding-right: 100px;
+    padding-bottom: 50px;
+}
+.topo p{
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 1.3em;
+    font-weight: bold;
+}
+.topo p a {
+    color: #004C3F;
+}
+footer {
+    background-color: #004C3F;
+    padding: 30px;
+    text-align: center;
+}
+footer p {
+    color: white;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+}
+footer p a {
+    color: white;
+    font-weight: bold;
+}
+footer p a:hover {
+    text-decoration: underline;
+}
+footer p a:active {
+    color: red;
+}
+@media (max-width: 1100px) {
+    .cabecalho nav a {
+        color: black;
+        margin: 5px;
+        font-family: sans-serif;
+        font-weight: bold;
+    }
+    .cabecalho nav {
+        font-size: 0.9em;
+        padding-top: 34px;
+        margin-right: 2px;
+    }
+    .cabecalho img {
+        margin-left: 10px;
+        width: 80px;
+        height: 80px;
+    }
+    .textodireito{
+        padding-top: 180px;
+        padding-left: 0;
+        text-align: center;
+        color: #004C3F;
+    }
+    .textodireito h1 {
+        font-size: 1.7em;
+    }
+    .primeiroconteudo {
+        display: block;
+        grid-template-columns: 0fr;
+        gap: 140px;
+        flex-flow: wrap;
+        padding-bottom: 60px;
+        font-family: Arial, Helvetica, sans-serif;
+    }
+    .textodireito form input {
+        font-size: 1em;
+        padding: 15px;
+        width: 402px;
+        border-radius: 4px;
+        border: 1px solid rgba(0, 0, 0, 0.534);
+        outline: none;
+    }
+    .textodireito form button {
+        padding: 15px;
+        font-weight: bold;
+        font-size: 1em;
+        width: 400px;
+        border-radius: 4px;
+        border: none;
+        color: white;
+        background-color: #008060;
+        margin: 2px;
+    }
+    .rp {
+        display: grid;
+        justify-content: center;
+        align-items: center;
+        margin-top: 40px;
+        margin-right: 0px;
+    }
+    .rp img {
+        width: 600px;
+        max-width: 100%;
+        height: auto;
+    }
+    .textodireito p {
+        font-size: 0.8em;
+        line-height: 1.4em;
+        padding: 0px 20px;
+        text-align: center;
+    }
+    .segundoconteudo {
+        margin: 0px auto;
+        padding: 90px 50px;
+        color: white;
+    }
+    .segundotexto h2{
+        font-size: 1.6em;
+        font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+        padding-bottom: 25px;
+    }
+    .segundotexto p:nth-child(2) {
+        line-height: 1.4em;
+        font-size: 1em;
+        padding-bottom: 20px;
+    }
+    .segundotexto p a {
+        font-size: 1em;
+    }
+    .imgcomercial {
+        padding-top: 60px;
+        display: grid;
+        grid-template-columns: repeat(5, 1fr);
+        gap: 20px;
+    }
+    hr {
+        display: none;
+    }
+    .jornadas {
+        padding-top: 70px;
+        display: block;
+        grid-template-columns: 0fr;
+    }
+    .jornadas h2 {
+        text-align: center;
+        padding-top: 50px;
+        font-size: 2.2em;
+        padding-bottom: 60px;
+    }
+    .jor {
+        display: block;
+        font-family: Arial, Helvetica, sans-serif;
+    }
+    .jor article {
+        margin-bottom: 60px;
+    }
+    .jor article h3 {
+        padding-bottom: 20px;
+        font-size: 1.6em;
+    }
+    .jor article p {
+        line-height: 1.5em;
+        font-size: 1.4em;
+   }
+    .terceiraparte {
+        padding: 80px 30px;
+    }
+    .segurar {
+        display: block;
+        grid-template-columns: repeat(0);
+    }
+    .terceirotexto {
+        text-align: center;
+        font-family: Arial, Helvetica, sans-serif;
+    }
+    .terceirotexto h2 {
+        font-size: 2.2em;
+        padding-bottom: 20px;
+    }
+    .terceirotexto p {
+        font-size: 1em;
+        line-height: 1.4em;
+        padding-bottom: 50px;
+    }
+    .banco{
+        display: block;
+        gap: 0px;
+        padding-top: 50px;
+        padding-bottom: 0px;
+    }
+    .banco img {
+        width: 450px;
+    }
+    .di {
+        display: block;
+        gap: 0px;
+    }
+    .ditext {
+        padding-top: 150px;
+        font-family: Arial, Helvetica, sans-serif;
+        padding-left: 0px;
+    }
+    .ditext h3 {
+        font-size: 1.8em;
+        padding-bottom: 30px;
+    }
+    .ditext p {
+        line-height: 1.5em;
+        color: #6B7177;
+        padding-bottom: 20px;
+    }
+    .ditext p a {
+        color: #008060;
+        font-weight: bold;
+        font-size: 1.1em;
+    }
+    .cellr img {
+        padding-top: 22px;
+        width: 420px;
+    }
+    .spofy {
+        padding-top: 130px;
+        display: block;
+        gap: 0px;
+    }
+    .spoimg img{
+        width: 440px;
+    }
+    .spotext {
+        font-family: Arial, Helvetica, sans-serif;
+        padding-top: 80px;
+    }
+    .mundo {
+        padding: 100px 20px;
+        display: block;
+        grid-template-columns: 6fr 5fr;
+    }
+    .plaimg img {
+        max-width: 100%;
+        height: auto;
+    }
+    .plaimg{
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        padding-left: 0px;
+    }
+    .pp {
+        padding: 0px 10px;
+    }
+    .pessoas {
+        display: block;
+    }
+    .pessoas .pim img  {
+        width: 100%;
+    }
+    .pessoaslado {
+        background-color: #022e27;
+        text-align: center;
+        padding-bottom: 40px;
+    }
+    .pessoaslado h2 {
+        line-height: 1.6em;
+        font-size: 1.7em;
+        padding-top: 40px;
+        padding-bottom: 50px;
+    }
+    .pessoaslado h3 {
+        padding-top: 10px;
+        padding-bottom: 30px;
+    }
+    .ultparte {
+        padding: 100px 0px 100px 0px;
+        text-align: center;
+        font-family: Arial, Helvetica, sans-serif;
+    }
+    .ultima {
+        padding-bottom: 35px;
+    }
+    .ultima h2 {
+        padding-bottom: 30px;
+        font-size: 1.7em;
+    }
+    .ultima p {
+        font-size: 1em;
+    }
+    .topo {
+        padding-right: 30px;
+    }
+    .topo p{
+        font-size: 1.2em;
+    }
+    footer {
+        background-color: #004C3F;
+        padding: 10px;
+        text-align: center;
+    }
+    footer p a {
+        font-size: 0.9em;
+        color: white;
+        font-weight: bold;
+    }
+    footer p {
+        font-size: 0.8em;
+    }
+    footer p a:hover {
+        text-decoration: underline;
+    }
+    footer p a:active {
+        color: red;
+    }
+}
